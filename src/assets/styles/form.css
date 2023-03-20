@@ -1,0 +1,45 @@
+:root {
+  --color1: red;
+  --font-color: red;
+  --font-size2: 35px;
+}
+
+* {
+  font-family: "Electrolize", sans-serif;
+  color: var(--font-color);
+}
+
+
+.formLogin h1,
+.formRegister h1 {
+  font-size: 50px;
+}
+
+.formLogin form,
+.formRegister form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 10% auto 20px;
+  border: 1px solid var(--color1);
+  padding: 30px 30px;
+  border-radius: 10px;
+}
+
+.formLogin form input,
+.formRegister form input {
+  height: 30px;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+
+.formRegister label,
+.formLogin label {
+  display: flex;
+  justify-content: flex-start;
+}
+.formLogin button,
+.formRegister button {
+  margin: 20px 0px;
+  height: var(--font-size2);
+}
